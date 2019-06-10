@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Examen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock>Primer Commit</TextBlock>
-    </Grid>
+        Title="MainWindow" Height="433.295" Width="800">
+    <StackPanel RenderTransformOrigin="0.243,0.456">
+        <Grid HorizontalAlignment="Left" Height="409" Margin="0,0,0,0" Width="409" Background="Aqua">
+            <Label Content="Nombre del empleado" Width="150" Margin="21.8,50,233.2,335"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,52,66.5,335"/>
+            <Label Content="Identidad" Width="150" Margin="21.8,85.2,233.2,299.8"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,87,66.5,300"/>
+            <Label Content="Horas trabajadas" Width="150" Margin="21.8,120.4,233.2,264.6"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,122,66.5,265"/>
+            <Label Content="Pago por hora normal de trabajo" Margin="25,154.8,196,225.2"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,156.8,66.5,230.2"/>
+            <Label Content="Horas extras trabajadas" Width="150" Margin="21.8,190,233.2,195"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,191.8,66.5,195.2"/>
+            <Label Content="Pago por hora de trabajo extra" Margin="22,224,210,161"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="218.5,226.8,66.5,160.2"/>
+            <Button Content="Calcular" HorizontalAlignment="Left" Margin="149,320,0,0" VerticalAlignment="Top" Width="75" Background="Beige"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="420" Margin="410,-410,0,0" Width="410" Background="CadetBlue">
+            <Label Content="Sueldo sin deducciones" Margin="22,50,196,335"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="170,52,66.5,335"/>
+            <Label Content="Sueldo por horas extras" Margin="22,85,196,300"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="170,87,66.5,300"/>
+            <Label Content="Deducciones" Width="150" Margin="21.8,120.4,233.2,264.6"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="170,122,66.5,265"/>
+            <Label Content="Sueldo total" Margin="25,154.8,196,225.2"/>
+            <TextBox TextWrapping="Wrap" Text="" Width="120" Margin="170,156.8,66.5,230.2"/>
+        </Grid>
+    </StackPanel>
 </Window>
